@@ -1,0 +1,6 @@
+{
+    "presets": [
+        "@babel/env" // por defecto la última versión de Babel
+    ],
+    "retainLines": true
+}

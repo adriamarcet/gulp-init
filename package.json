@@ -9,7 +9,8 @@
     "start": "gulp"
   },
   "dependencies": {
-    "gulp": "^4.0.0"
+    "gulp": "^4.0.0",
+    "normalize-scss": "^7.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",

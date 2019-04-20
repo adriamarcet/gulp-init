@@ -2,8 +2,7 @@
 // const gulp = require('gulp');
 //Con babel:
 import gulp from 'gulp';
-import sass from './tasks/styles.js';
-
+import {lintCss, sass} from './tasks/styles.js';
 
 // const dest = () => gulp.src(`${routes.src}/*`).pipe(gulp.dest(`${routes.dest}`));
 
@@ -13,8 +12,9 @@ import sass from './tasks/styles.js';
 //     done();
 // })
 
+const buildStyles = gulp.series(lintCss, sass);
 //Concatenar tareas gulp 4 : (gulp.series, gulp.parallel):
-gulp.task('default', gulp.series(sass));
+gulp.task('default', buildStyles);
 
 // To do
 // css-nano configurar sin z-index

@@ -1,7 +1,7 @@
 const routes = {
-    src: 'src/',
-    dest: 'dist/',
-    scss: 'src/assets/scss/'
+    src: 'app/resources/',
+    dest: 'src/',
+    scss: 'app/resources/assets/scss/'
 }
 
 export default routes;

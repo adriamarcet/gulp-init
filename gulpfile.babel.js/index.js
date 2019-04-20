@@ -2,7 +2,8 @@
 // const gulp = require('gulp');
 //Con babel:
 import gulp from 'gulp';
-import {lintCss, sass} from './tasks/styles.js';
+import {sass} from './tasks/styles.base.js';
+import lintCss from './tasks/styles.lint.js';
 
 // const dest = () => gulp.src(`${routes.src}/*`).pipe(gulp.dest(`${routes.dest}`));
 

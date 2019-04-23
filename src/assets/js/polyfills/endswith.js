@@ -1,0 +1,1 @@
+"use strict";if(!String.prototype.endsWith){String.prototype.endsWith=function(t,i){if(i===undefined||i>this.length){i=this.length}return this.substring(i-t.length,i)===t}}

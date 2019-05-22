@@ -10,7 +10,7 @@ import autoprefixer from 'autoprefixer';
 const STYLE_FILES = `${routes.scss}**/*.scss`;
 const STYLE_FILES_COMPILED = `${routes.dest}assets/css`;
 
-const styles = function () {
+const sass = function () {
     return gulp.src(STYLE_FILES)
       .pipe(gulpStylelint({
         failAfterError: false,
@@ -26,9 +26,9 @@ const styles = function () {
 }
 
 const watchStyles = function() {
-  styles();
-
   return gulp.watch(STYLE_FILES, styles);
 }
 
-export { STYLE_FILES, STYLE_FILES_COMPILED, watchStyles };
+const styles = gulp.series(sass, watchStyles);
+
+export { STYLE_FILES, STYLE_FILES_COMPILED, styles };

@@ -25,4 +25,8 @@ const styles = function () {
       .pipe(gulp.dest(STYLE_FILES_COMPILED));
 }
 
-export { STYLE_FILES, STYLE_FILES_COMPILED, styles };
+const watchStyles = function() {
+  return gulp.watch(STYLE_FILES, ['styles']);
+};
+
+export { watchStyles };

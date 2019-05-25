@@ -3,7 +3,7 @@ import uglify from 'gulp-uglify';
 import babel from 'gulp-babel';
 import { SCRIPTS_DEST, SCRIPTS_SRC } from '../routes.js';
 
-const scripts = function() {
+const scripts = function () {
     return gulp.src(`${SCRIPTS_SRC}**/*`)
         .pipe(babel({
             presets: ['@babel/env']

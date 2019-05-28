@@ -1,0 +1,26 @@
+Items que añadir:
+
+    Browsersync
+    Compresión de imagenes
+    Copia de fuentes
+    x Fichero de rutas
+    Generación de sprites de SVG
+    Compilación de TWIG.js
+    Minificación de scripts
+    Concatenación de scripts
+    Creación de linterns de scripts
+    Creación de linterns de estilos
+    Compilación de estilos
+    Creación de CRP
+    Creación del watch
+    Entender tareas en serie y en paralelo
+
+
+-- Jose ---------------------
+
+Javascript ES6 transpilation - Javascript modules concatenation- SVG Sprite generation- CRP styles creation- Image minification- Watch changes- Browsersync- TWIG.JS
+
+
+- integrar minify en styles.
+- lints fuera de las tareas principales
+- revisar routes

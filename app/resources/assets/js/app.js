@@ -1,3 +1,5 @@
+import './polyfills/endsWith';
+
 const bendings = [
     'Airbending',
     'Firebending',

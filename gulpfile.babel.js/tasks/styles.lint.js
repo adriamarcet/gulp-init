@@ -1,6 +1,6 @@
 import gulp from 'gulp';
 import gulpStyleLint from 'gulp-stylelint';
-import {STYLE_FILES} from './styles.base.js';
+import { STYLE_FILES } from './styles.base';
 
 const lintCss = function () {
     return gulp.src(STYLE_FILES)

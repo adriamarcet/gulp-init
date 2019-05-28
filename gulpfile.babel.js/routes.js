@@ -1,27 +1,20 @@
-const routes = {
-    src: 'app/resources/',
-    dest: 'src/',
-    scss: 'app/resources/assets/scss/',
-    fonts_src: 'app/resources/assets/fonts/',
-    fonts_dest: 'src/assets/fonts/',
-    scripts_src: 'app/resources/assets/js/',
-    scripts_dest: 'src/assets/js/',
-}
+const PATH_DIST = 'web';
+const PATH_DIST_ASSETS = `${PATH_DIST}/assets`;
+const PATH_SRC = 'app';
+const PATH_SRC_ASSETS = `${PATH_SRC}/resources/assets`;
 
-const FONTS_DEST = routes.fonts_dest;
-const FONTS_SRC = routes.fonts_src;
-// const MARKUP_DEST = 'src/views';
-// const MARKUP_SRC = 'app/resources/views';
-const SCRIPTS_DEST = routes.scripts_dest;
-const SCRIPTS_SRC = routes.scripts_src;
-
-export default routes;
+const FONTS_DEST = `${PATH_DIST_ASSETS}/fonts`;
+const FONTS_SRC = `${PATH_SRC_ASSETS}/fonts`;
+const SCRIPTS_DEST = `${PATH_DIST_ASSETS}/js`;
+const SCRIPTS_SRC = `${PATH_SRC_ASSETS}/js`;
+const STYLES_SRC = `${PATH_SRC_ASSETS}/scss/**/*.scss`;
+const STYLES_DEST = `${PATH_DIST_ASSETS}/css`;
 
 export {
-    FONTS_SRC,
     FONTS_DEST,
-    SCRIPTS_SRC,
+    FONTS_SRC,
     SCRIPTS_DEST,
-    // MARKUP_SRC,
-    // MARKUP_DEST
+    SCRIPTS_SRC,
+    STYLES_DEST,
+    STYLES_SRC
 }

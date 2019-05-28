@@ -1,9 +1,10 @@
 import gulp from 'gulp';
 import gulpStyleLint from 'gulp-stylelint';
-import { STYLE_FILES } from './styles.base';
+
+import { STYLES_SRC } from '../routes';
 
 const lintCss = function () {
-    return gulp.src(STYLE_FILES)
+    return gulp.src(STYLES_SRC)
         .pipe(gulpStyleLint({
             // failAfterError: false,
             reporters: [

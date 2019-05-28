@@ -18,8 +18,11 @@ Items que añadir:
 
 -- Jose ---------------------
 
-Javascript ES6 transpilation - Javascript modules concatenation- SVG Sprite generation- CRP styles creation- Image minification- Watch changes- Browsersync- TWIG.JS
 
+
+
+
+Javascript ES6 transpilation - Javascript modules concatenation- SVG Sprite generation- CRP styles creation- Image minification- Watch changes- Browsersync- TWIG.JS
 
 - integrar minify en styles.
 - lints fuera de las tareas principales
@@ -27,5 +30,11 @@ Javascript ES6 transpilation - Javascript modules concatenation- SVG Sprite gene
 
 
 - cambiar nombre app a dist y variables de routes
+
 - CRP
-- configurar el output, el browsersync y el watcher
+- configurar default task:
+    - clean de DIST
+    - output
+    - serve (browsersync)
+    - watcher
+- yargs (para leer argumentos de la consola) si queremos que las tareas hagan una cosa u otra en función de esos argumentos

@@ -7,7 +7,7 @@ const markup = function () {
         .src(`app/resources/views/pages/**/*.twig`)
         .pipe(twig({
             cache: false,
-            base: `src/views`
+            base: `app/resources`,
         }))
         .pipe(gulp.dest(`dist`));
 }

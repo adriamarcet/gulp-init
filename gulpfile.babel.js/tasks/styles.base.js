@@ -1,17 +1,14 @@
+import autoprefixer from 'autoprefixer';
 import gulp from 'gulp';
 import gulpsass from 'gulp-sass';
 import gulpStylelint from 'gulp-stylelint';
-import routes from '../routes.js';
-
 import postcss from 'gulp-postcss';
 import sourcemaps from 'gulp-sourcemaps';
-import autoprefixer from 'autoprefixer';
 
-const STYLE_FILES = `${routes.scss}**/*.scss`;
-const STYLE_FILES_COMPILED = `${routes.dest}assets/css`;
+import { STYLES_DEST, STYLES_SRC } from '../routes.js';
 
-const sass = function () {
-    return gulp.src(STYLE_FILES)
+const sass = () => {
+    return gulp.src(STYLES_SRC)
       .pipe(gulpStylelint({
         failAfterError: false,
         reporters: [
@@ -22,13 +19,8 @@ const sass = function () {
       .pipe(sourcemaps.init())
       .pipe(postcss([autoprefixer()]))
       .pipe(sourcemaps.write('.'))
-      .pipe(gulp.dest(STYLE_FILES_COMPILED));
+        .pipe(gulp.dest(STYLES_DEST));
 }
 
-const watchStyles = () => {
-  return gulp.watch(STYLE_FILES, styles);
-}
-
-const styles = gulp.series(sass, watchStyles);
-
-export { STYLE_FILES, STYLE_FILES_COMPILED, styles };
+const styles = gulp.series(sass);
+export default styles;

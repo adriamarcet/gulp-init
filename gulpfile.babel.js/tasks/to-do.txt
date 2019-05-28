@@ -1,40 +1,40 @@
-Items que añadir:
+1. TO DO
+2. BACKLOG
+3. DONE
+---
 
+1. TO DO:
+    Configurar default task:
+        clean de DIST
+        output
+        serve (browsersync)
+        watcher
+    Integrar minify en styles.
+    Lints fuera de las tareas principales
+    Tarea para CRP
+    Añadir si en necesario YARGS
+        para leer argumentos de la consola
+        si queremos que las tareas hagan una cosa u otra en función de esos argumentos
+
+2. BACKLOG:
     Browsersync
     Compresión de imagenes
-    Copia de fuentes
-    x Fichero de rutas
-    Generación de sprites de SVG
-    Compilación de TWIG.js
-    Minificación de scripts
-    Concatenación de scripts
+    Creación de CRP para estilos
     Creación de linterns de scripts
-    Creación de linterns de estilos
+    Creación del Watch para estilos, markup e imágenes
+    Image minification
+    SVG Sprite generation
+
+3. DONE:
+    Javascript ES6 transpilation
+    Javascript modules concatenation
+    Setup de BABEL
+    TWIG.JS
+    Copia de fuentes
     Compilación de estilos
-    Creación de CRP
-    Creación del watch
+    Compilación de TWIG.js
+    Concatenación de scripts
+    Minificación de scripts
+    Creación de linterns de estilos
     Entender tareas en serie y en paralelo
-
-
--- Jose ---------------------
-
-
-
-
-
-Javascript ES6 transpilation - Javascript modules concatenation- SVG Sprite generation- CRP styles creation- Image minification- Watch changes- Browsersync- TWIG.JS
-
-- integrar minify en styles.
-- lints fuera de las tareas principales
-- revisar routes
-
-
-- cambiar nombre app a dist y variables de routes
-
-- CRP
-- configurar default task:
-    - clean de DIST
-    - output
-    - serve (browsersync)
-    - watcher
-- yargs (para leer argumentos de la consola) si queremos que las tareas hagan una cosa u otra en función de esos argumentos
+    Fichero de rutas

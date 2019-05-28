@@ -8,12 +8,12 @@ const routes = {
     scripts_dest: 'src/assets/js/',
 }
 
-const FONTS_SRC = routes.fonts_src,
-    FONTS_DEST  = routes.fonts_dest,
-    SCRIPTS_SRC = routes.scripts_src,
-    SCRIPTS_DEST = routes.scripts_dest,
-    MARKUP_SRC = 'app/resources/views/',
-    MARKUP_DEST = 'src/views/';
+const FONTS_DEST = routes.fonts_dest;
+const FONTS_SRC = routes.fonts_src;
+// const MARKUP_DEST = 'src/views';
+// const MARKUP_SRC = 'app/resources/views';
+const SCRIPTS_DEST = routes.scripts_dest;
+const SCRIPTS_SRC = routes.scripts_src;
 
 export default routes;
 
@@ -22,6 +22,6 @@ export {
     FONTS_DEST,
     SCRIPTS_SRC,
     SCRIPTS_DEST,
-    MARKUP_SRC,
-    MARKUP_DEST
+    // MARKUP_SRC,
+    // MARKUP_DEST
 }

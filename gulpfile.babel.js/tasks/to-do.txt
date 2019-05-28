@@ -24,3 +24,8 @@ Javascript ES6 transpilation - Javascript modules concatenation- SVG Sprite gene
 - integrar minify en styles.
 - lints fuera de las tareas principales
 - revisar routes
+
+
+- cambiar nombre app a dist y variables de routes
+- CRP
+- configurar el output, el browsersync y el watcher

@@ -25,7 +25,7 @@ const sass = function () {
       .pipe(gulp.dest(STYLE_FILES_COMPILED));
 }
 
-const watchStyles = function() {
+const watchStyles = () => {
   return gulp.watch(STYLE_FILES, styles);
 }
 

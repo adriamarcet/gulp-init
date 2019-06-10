@@ -23,4 +23,7 @@ const sass = () => {
 }
 
 const styles = gulp.series(sass);
+const STYLE_FILES = STYLES_SRC;
+
+export { STYLE_FILES };
 export default styles;

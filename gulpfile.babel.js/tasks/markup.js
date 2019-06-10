@@ -12,4 +12,7 @@ const markup = function () {
         .pipe(gulp.dest(`${MARKUP_DEST}`));
 }
 
+const MARKUP_FILES = MARKUP_SRC;
+
+export { MARKUP_FILES };
 export default markup;

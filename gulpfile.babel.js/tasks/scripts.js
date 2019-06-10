@@ -13,4 +13,7 @@ const scripts = function() {
         .pipe(gulp.dest(`${SCRIPTS_DEST}`))
 }
 
+const SCRIPT_FILES = SCRIPTS_SRC;
+
+export { SCRIPT_FILES };
 export default scripts;

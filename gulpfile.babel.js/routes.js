@@ -16,10 +16,11 @@ const MARKUP_DEST = `${PATH_DIST}`;
 export {
     FONTS_DEST,
     FONTS_SRC,
+    MARKUP_DEST,
+    MARKUP_SRC,
+    PATH_DIST,
     SCRIPTS_DEST,
     SCRIPTS_SRC,
     STYLES_DEST,
     STYLES_SRC,
-    MARKUP_DEST,
-    MARKUP_SRC,
 }

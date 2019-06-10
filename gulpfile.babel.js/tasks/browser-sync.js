@@ -1,21 +1,21 @@
 import browserSync from 'browser-sync';
-import { WEB_PATH } from '../routes';
+import { PATH_DIST } from '../routes';
 
 const reload = (done) => {
     browserSync.reload();
     done();
 };
 
-const serve = (done) => {
+const serve = done => {
     browserSync.init({
-        server: { baseDir: `${WEB_PATH}/` },
+        server: { baseDir:  `${ PATH_DIST }/` },
         port: 5000,
         ui: { port: 5001 },
         options: { reloadDelay: 250 },
         open: true,
         notify: true,
       });
-      done();
+    done();
 };
 
 export {reload, serve};

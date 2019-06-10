@@ -1,3 +1,7 @@
-{% include '../atoms/test.twig' with {
-    title: 'Hello Twig World!'
-} %}
+{% extends '../base.twig' %}
+
+{% block content %}
+    {% include '../atoms/test.twig' with {
+        title: 'Hello Twig World!'
+    } %}
+{% endblock %}

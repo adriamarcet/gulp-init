@@ -14,7 +14,7 @@ const watcher = () => {
 }
 
 const buildStyles = series(styles, minifyCss);
-const taskDefault = parallel(markup, fonts, buildStyles, scripts, watcher);
+const taskDefault = parallel(markup, fonts, buildStyles, scripts, serve, watcher);
 
 // Invoked with yarn start <const name>
 export { buildStyles };

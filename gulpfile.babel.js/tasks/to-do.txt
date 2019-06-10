@@ -1,0 +1,40 @@
+1. TO DO
+2. BACKLOG
+3. DONE
+---
+
+1. TO DO:
+    Configurar default task:
+        clean de DIST
+        output
+        serve (browsersync)
+        watcher
+    Integrar minify en styles.
+    Lints fuera de las tareas principales
+    Tarea para CRP
+    Añadir si en necesario YARGS
+        para leer argumentos de la consola
+        si queremos que las tareas hagan una cosa u otra en función de esos argumentos
+
+2. BACKLOG:
+    Browsersync
+    Compresión de imagenes
+    Creación de CRP para estilos
+    Creación de linterns de scripts
+    Creación del Watch para estilos, markup e imágenes
+    Image minification
+    SVG Sprite generation
+
+3. DONE:
+    Javascript ES6 transpilation
+    Javascript modules concatenation
+    Setup de BABEL
+    TWIG.JS
+    Copia de fuentes
+    Compilación de estilos
+    Compilación de TWIG.js
+    Concatenación de scripts
+    Minificación de scripts
+    Creación de linterns de estilos
+    Entender tareas en serie y en paralelo
+    Fichero de rutas

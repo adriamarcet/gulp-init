@@ -39,3 +39,11 @@
     Creación de linterns de estilos
     Entender tareas en serie y en paralelo
     Crear Fichero de rutas
+
+
+
+Data:
+    pasar un objeto a Data del config de TWIG
+    para luego poder acceder a él
+    lista de idiomas
+    por

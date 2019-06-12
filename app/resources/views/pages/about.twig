@@ -1,9 +1,7 @@
 {% extends '../base.twig' %}
 
 {% block content %}
-    {{ dump(t) }}
-    {{ dump(t.pages.about) }}
     {% include '../atoms/test.twig' with {
-        title: 'Hello Twig World!'
+        title: 'About'
     } %}
 {% endblock %}

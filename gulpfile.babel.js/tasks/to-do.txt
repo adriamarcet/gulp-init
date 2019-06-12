@@ -17,6 +17,7 @@
         si queremos que las tareas hagan una cosa u otra en función de esos argumentos
 
 2. BACKLOG:
+    Añadir NPM specificity: https://www.npmjs.com/package/specificity
     Browsersync
     Compresión de imagenes
     Creación de CRP para estilos
@@ -37,4 +38,4 @@
     Minificación de scripts
     Creación de linterns de estilos
     Entender tareas en serie y en paralelo
-    Fichero de rutas
+    Crear Fichero de rutas
